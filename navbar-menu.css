@@ -38,3 +38,42 @@
     display: none;
     z-index: -999;
 }
+
+@media  (0px <= width <= 426px) {
+    .navbar-toggler {
+        background: red;
+        border-radius: 25px;
+        position: fixed;
+        top: -20px;
+        bottom: 0;
+        right: -5px;
+        z-index: 222;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        margin: 25px;
+        width: 40px;
+        height: 40px;
+        outline: none;
+    }
+
+}
+
+@media  (426px <= width <= 768px) {
+.navbar-toggler {
+    background: red;
+    border-radius: 25px;
+    position: fixed;
+    top: -10px;
+    bottom: 0;
+    right: 0;
+    z-index: 222;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 25px;
+    width: 55px;
+    height: 55px;
+    outline: none;
+}
+}
