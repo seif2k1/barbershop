@@ -1,0 +1,84 @@
+.services{
+    height: 100%;
+    width: 100%;
+    padding:80px 70px; 
+}
+.services .services-header h1{
+    font-size: 55px;
+    margin-bottom: 45px;
+}
+.services .services-header{
+    margin-left: 30px;
+}
+.service-content{
+    position:relative;
+    overflow: hidden;
+    border-radius: 35px;
+}
+.service-content img{
+    transition:all .5s ease-in-out;
+}
+.siffo{
+    margin-left: auto;
+    font-size: 20px;
+    padding:1px 14px;
+    background:#d6a354;
+    border-radius: 20px;
+    color: black;
+}
+.service-content:hover img{
+    scale: 1.1;
+}
+.service-content:hover .service-footer{
+    border: 7px solid #d6a354;
+}
+.service-footer{
+    border-radius: 35px;
+    border: 2px solid #d6a354;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 20px;
+    padding: 25px 30px;
+    transition: all 0.3s ease;
+}
+.service-footer h4{
+    font-size: 35px;
+}
+
+@media  (320px <= width <= 426px) {
+    .services {
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .services .services-header h1 {
+        font-size: 55px;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+}
+@media  (426px <= width <= 768px) {
+    .services {
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .services .services-header h1 {
+        font-size: 55px;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+}
+@media  (769px <= width <= 1024px) {
+    .services {
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 0px 15px;
+    }
+}

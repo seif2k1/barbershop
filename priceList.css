@@ -1,0 +1,121 @@
+.price-list .price-list-header h1{
+    font-size: 55px;
+    font-style: oblique;
+}
+.seif{
+    height: 100%;
+    margin: 30px 0;
+}
+.price-list .price-list-info .price-list-info-1{
+    display: flex;
+    align-items: center;
+}
+.price-list .price-list-info .price-list-info-1 h4{
+    color:#d6a354;
+}
+.price-list .price-list-info .price-list-info-1 h1{
+    font-size:25px;
+}
+.price-list-thumb-divider {
+    background: lightgray;
+    flex: auto;
+    height: 4px;
+    margin: 0 15px;
+}
+#id-2 .price-list-card,#id-1,.ss{
+    border:2px solid red;
+    border-radius: 20px;
+}
+.ss{
+    background: #d6a354;
+    position: relative;
+    height: 250px;
+    width: 450px;
+    transition:all .3s ease-in-out;
+}
+.ss:hover{
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    scale: 1.06;
+}
+.ss::before{
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:url(./images/vintage-chair-barbershop.jpg) no-repeat center/cover;
+    transform: rotate(8deg);
+}
+@media  (320px <= width <= 426px) {
+    .price-list-header{
+        text-align:center;
+    }
+    .ss {
+        height: 250px;
+        width: 280px;
+        transition: all .3s ease-in-out;
+        margin:5px ;
+    }
+    #id-2 .price-list-card, #id-1, .ss {
+        border: 2px solid red;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seif {
+        height: calc(100vh + 100px);
+        margin: 30px 0;
+    }
+    .ss:hover{
+        background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+        scale: 1.03;
+    }
+}
+@media  (426px <= width <= 768px) {
+    .price-list-header{
+        text-align:center;
+    }
+    .ss {
+        height: 250px;
+        width: 100%;
+        transition: all .3s ease-in-out;
+        margin:5px ;
+    }
+    #id-2 .price-list-card, #id-1, .ss {
+        border: 2px solid red;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seif {
+        height: calc(100vh + 100px);
+        margin: 30px 0;
+    }
+    .ss:hover{
+        background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+        scale: 1.03;
+    }
+}
+@media  (769px <= width <= 1024px) {
+    .seif {
+        height: 100%;
+        margin: 30px 0;
+    }
+    .ss {
+    background: #d6a354;
+    position: relative;
+    height: 250px;
+    width: 300px;
+    transition: all .3s ease-in-out;
+}
+
+#id-2 .price-list-card, #id-1, .ss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

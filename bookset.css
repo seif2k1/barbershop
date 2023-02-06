@@ -1,0 +1,85 @@
+.book-set{
+    height: 100%;
+    background: url(./images/vintage-chair-barbershop.jpg)fixed no-repeat center/cover;
+    padding:120px 170px;
+}
+.book-header{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.book-header h1{
+    font-size:70px;
+    margin:20px 0;
+}
+.book-content{
+    background-color: white;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.book-info .col-md-6 .book-info-select{
+    height: 78%;
+}
+.book-info .col-md-12 .book-info-comment{
+    height: 30vh;
+}
+
+@media  (320px <= width <= 426px) {
+    .book-set {
+        height: 100%;
+        padding: 80px 20px;
+        text-align: center;
+    }
+    .book-info .col-md-6 .book-info-select{
+        height: 100%;
+    }
+    .book-info .col-md-12 .book-info-comment{
+        height: 20vh;
+        margin-bottom: 45px;
+    }
+    .book-header h1 {
+        font-size: 50px;
+        margin: 20px 0;
+    }.book-content {
+        background-color: white;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+}
+@media  (426px <= width <= 768px) {
+    .book-set {
+        height: 100%;
+        padding: 80px 20px;
+        text-align: center;
+    }
+    .book-info .col-md-6 .book-info-select{
+        height: 100%;
+    }
+    .book-info .col-md-12 .book-info-comment{
+        height: 20vh;
+        margin-bottom: 45px;
+    }
+    .book-header h1 {
+        font-size: 50px;
+        margin: 20px 0;
+    }.book-content {
+        background-color: white;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+}
+@media  (769px <= width <= 1024px) {
+    .book-set {
+        height: 100%;
+        text-align: center;
+    }
+    .book-info .col-md-6 .book-info-select{
+        height: 100%;
+    }
+    .book-content {
+        background-color: white;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+}

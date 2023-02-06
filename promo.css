@@ -1,0 +1,39 @@
+.barber-promo{
+    background: url(./images/barber-customer-giving-high-five.jpg) fixed no-repeat center/cover;
+    filter:brightness(80%);
+}
+.barber-promo{
+    border:2px solid red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.barber-promo .promo-h1{
+    font-size: 60px;
+    color:red;
+    margin: 20px 0;
+}
+.barber-promo .promo-h3{
+    font-size: 30px;
+    color:white;
+    margin: 10px 0;
+}
+.barber-promo .promo-h5{
+    margin: 20px 0;
+    padding:8px 16px;
+    background-color:#d6a354;
+    border-radius: 20px;
+}
+@media  (320px <= width <= 426px) {
+    .barber-promo{
+    background: url(./images/barber-customer-giving-high-five.jpg) fixed no-repeat center/cover;
+    filter:brightness(100%);
+    }
+.barber-promo{
+    align-items: center;
+}
+    
+}
