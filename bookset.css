@@ -25,7 +25,7 @@
     height: 30vh;
 }
 
-@media  (320px <= width <= 426px) {
+@media  (0px <= width <= 426px) {
     .book-set {
         height: 100%;
         padding: 80px 20px;
@@ -68,11 +68,13 @@
         height: 100%;
         padding-bottom: 40px;
     }
+    
 }
 @media  (769px <= width <= 1024px) {
     .book-set {
         height: 100%;
         text-align: center;
+        padding:80px;
     }
     .book-info .col-md-6 .book-info-select{
         height: 100%;

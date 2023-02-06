@@ -109,7 +109,7 @@
     border: 2px solid red;
     background:red;
 }
-@media (320px <= width <= 426px) {
+@media (0px <= width <= 426px) {
     .main-content #h1 {
         font-size: 60px;
         color: white;
@@ -182,6 +182,87 @@
 }
 }
 @media (426px <= width <= 768px) {
+    .link-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;}
+    .main-content #h1{
+        font-size: 60px;
+        color: white;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+.main-content{
+    display: flex;
+    justify-content: flex-start;
+}
+.main-content .link-content #link-1,.main-content .link-content #link-2{
+    padding:7px 20px;
+    margin-right: 60px;
+}
+.main-image-content{
+    width: 350px;
+    height: 350px;
+    border:10px solid #d6a354;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(20%,10%);
+    border-radius: 100%;
+}
+.image-content{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    transform: translate(50%,-40%);
+    object-fit: cover;
+    border:10px solid #d6a354;
+    border-radius: 100%;
+}
+.main-image-content-enter h1{
+    width: 150px;
+    font-size: 30px;
+    color: white;
+}
+.main-content .main-image-content-enter #link-3{
+    padding:7px 20px;
+    border: 2px solid #FDBB2D;
+    background: #FDBB2D;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 35px;
+}
+.main-content #h5{
+    color:black;
+    font-size:25px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-content .link-content #link-1{
+    padding:7px 20px;
+    border: 2px solid white;
+    margin-right: 20px;
+    border-radius: 35px;
+}
+.main-content .link-content #link-2{
+    padding:7px 20px;
+    border: 2px solid red;
+    background:red;
+    margin-right: 20px;
+    border-radius: 35px;
+}
+.main-image-content-enter{
+    margin: 80px 50px 0 50px;
+}
+}
+@media (768px <= width <= 1024px) {
+    .link-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;}
     .main-content #h1{
         font-size: 60px;
         color: white;

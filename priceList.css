@@ -23,14 +23,13 @@
     margin: 0 15px;
 }
 #id-2 .price-list-card,#id-1,.ss{
-    border:2px solid red;
     border-radius: 20px;
 }
 .ss{
     background: #d6a354;
     position: relative;
     height: 250px;
-    width: 450px;
+    width: 90%;
     transition:all .3s ease-in-out;
 }
 .ss:hover{
@@ -48,7 +47,7 @@
     background:url(./images/vintage-chair-barbershop.jpg) no-repeat center/cover;
     transform: rotate(8deg);
 }
-@media  (320px <= width <= 426px) {
+@media  (0px <= width <= 426px) {
     .price-list-header{
         text-align:center;
     }
@@ -59,7 +58,6 @@
         margin:5px ;
     }
     #id-2 .price-list-card, #id-1, .ss {
-        border: 2px solid red;
         border-radius: 20px;
         display: flex;
         align-items: center;
@@ -80,12 +78,11 @@
     }
     .ss {
         height: 250px;
-        width: 100%;
+        width: 80%;
         transition: all .3s ease-in-out;
         margin:5px ;
     }
     #id-2 .price-list-card, #id-1, .ss {
-        border: 2px solid red;
         border-radius: 20px;
         display: flex;
         align-items: center;

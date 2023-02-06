@@ -48,7 +48,7 @@
     font-size: 35px;
 }
 
-@media  (320px <= width <= 426px) {
+@media  (0px <= width <= 426px) {
     .services {
         align-items: center;
         height: 100%;
