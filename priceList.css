@@ -52,8 +52,11 @@
         text-align:center;
     }
     .ss {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 250px;
-        width: 280px;
+        width: 80%;
         transition: all .3s ease-in-out;
         margin:5px ;
     }

@@ -75,6 +75,7 @@
     transition-duration: 0.5s;
 }
 .main-content .link-content #link-1{
+    font-size: 20px;
     padding:7px 20px;
     border: 2px solid white;
     margin-right: 60px;
@@ -85,6 +86,7 @@
     background: #FDBB2D;
 }
 .main-content .link-content #link-2{
+    font-size: 20px;
     padding:7px 20px;
     border: 2px solid red;
     background:red;
@@ -111,7 +113,7 @@
 }
 @media (0px <= width <= 426px) {
     .main-content #h1 {
-        font-size: 60px;
+        font-size: 30px;
         color: white;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
